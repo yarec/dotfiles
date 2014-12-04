@@ -1,0 +1,30 @@
+; Summary: Proxy Switchy! Exported Rule List
+; Date: 4/23/2014
+; Website: http://bit.ly/proxyswitchy
+
+#BEGIN
+
+[wildcard]
+*://*.googlevideo.com/*
+*://plus.google.com/*
+*://apis.google.com/*
+*://talkgadget.google.com/*
+*.googleusercontent.com/*
+*.googleapis.com/*
+*.blogspot.com/*
+*://*youtube.com/*
+*://*gstatic.com/*
+*://stackoverflow.com/*
+*://*.ytimg.com/*
+*://*wordpress.com/*
+*://*stackoverflow.com/*
+*://*twitter.com/*
+*://t.co/*
+*://*quick-apple.com/*
+*://*startbootstrap.com/*
+*://*fullstackedu.com/*
+
+[regexp]
+
+
+#END
