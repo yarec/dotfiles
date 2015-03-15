@@ -23,8 +23,8 @@
     new = green bold
 [color "status"]
     added = yellow
-    changed = green
-    untracked = cyan
+    changed = green bold
+    untracked = magenta bold
 [alias]
     co = checkout
     br = branch
