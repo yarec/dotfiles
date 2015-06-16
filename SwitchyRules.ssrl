@@ -6,11 +6,13 @@
 
 [wildcard]
 *://*.googlevideo.com/*
+*://www.google.com/*
 *://plus.google.com/*
 *://apis.google.com/*
 *://talkgadget.google.com/*
 *.googleusercontent.com/*
 *.googleapis.com/*
+
 *.blogspot.com/*
 *://*youtube.com/*
 *://*gstatic.com/*
@@ -23,6 +25,7 @@
 *://*quick-apple.com/*
 *://*startbootstrap.com/*
 *://*fullstackedu.com/*
+*://*flickr.com/*
 
 [regexp]
 
