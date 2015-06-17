@@ -7,6 +7,7 @@
 [wildcard]
 *://*.googlevideo.com/*
 *://www.google.com/*
+*://chrome.google.com/*
 *://plus.google.com/*
 *://apis.google.com/*
 *://talkgadget.google.com/*
