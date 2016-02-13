@@ -25,3 +25,10 @@
     alias l='ls -CF'
 
     alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+    # use gnu-tools
+    PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+    PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+    PATH=/Users/rt/app/apache-maven-3.3.3/bin:$PATH
+    M2_HOME=/Users/rt/app/apache-maven-3.3.3
