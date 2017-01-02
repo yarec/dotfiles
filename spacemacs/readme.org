@@ -1,0 +1,8 @@
+
+cd ~/.emacs.d/private/local/
+wget https://raw.githubusercontent.com/ppareit/graphviz-dot-mode/master/graphviz-dot-mode.el
+
+(load-file "~/.emacs.d/graphviz-dot-mode.el")
+
+<C-c c> compile
+<C-c p> preview
