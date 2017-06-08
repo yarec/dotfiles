@@ -38,6 +38,7 @@ sslVerify=false
     unref = reset --soft HEAD@{1}
     subs = submodule foreach git pull origin master
     hist = recent-branches
+	dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy  | less --tabs=4 -RFX; }; f"
 [push]
     default = matching
 [core]
