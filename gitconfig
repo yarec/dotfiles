@@ -1,6 +1,6 @@
 [user]
-    name = yarec
-    email = yarec@163.com
+	name = yarec
+	email = yarec@163.com
 
 [http]
 #proxy=127.0.0.1:8087
@@ -51,6 +51,7 @@ sslVerify=false
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
 	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
